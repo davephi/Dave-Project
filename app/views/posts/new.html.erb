@@ -1,15 +1,15 @@
 <%= form_for(@post) do |f| %>
 	<div class="field">
-		<p>title</p>
+		<p>Title</p>
 		<%= f.text_field :title%>
 	</div>
 	<div class="field">
-		<p>body</p>
+		<p>Body</p>
 		<%= f.text_area :body%>
 	</div>
 
 	<div class="field">
-		<p>user</p>
+		<p>User</p>
 		<%= f.collection_select :user_id, User.all, :id, :name%>
 	</div>
 	<div class="actions">

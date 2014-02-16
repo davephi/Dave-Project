@@ -1,9 +1,15 @@
 == Heroku
-http://serene-dawn-6766.herokuapp.com/
+http://cis196-spr14.herokuapp.com/
 
 == 2/16/2014
 
+<<<<<<< HEAD
 Created app that writes to database and reads from it
+=======
+http://serene-dawn-6766.herokuapp.com/
+
+Things you may want to cover:
+>>>>>>> 78cbf107bb842ab113ee20a9d109170a2365a6f3
 
 == 1/15/2014
 
