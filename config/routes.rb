@@ -1,5 +1,6 @@
 MyApp::Application.routes.draw do
 
+  resources :tours
   resources :posts
   resources :users
 

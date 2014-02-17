@@ -1,0 +1,18 @@
+<%= form_for(@tour) do |f| %>
+	<div class="field">
+		<p>Tour Time</p>
+		<%= f.text_field :time%>
+	</div>
+	<div class="field">
+		<p>Apartment Size</p>
+		<%= f.text_area :size%>
+	</div>
+	<div class="field">
+		<p>Tourguide</p>
+		<%= f.text_area :guide%>
+	</div>
+
+	<div class="actions">
+		<%= f.submit%>
+	</div>
+<% end %>	

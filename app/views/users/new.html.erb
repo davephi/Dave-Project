@@ -1,15 +1,19 @@
 <%= form_for(@user) do |f| %>
 	<div class="field">
-		<p>name</p>
+		<p>Name</p>
 		<%= f.text_field :name%>
 	</div>
 	<div class="field">
-		<p>email</p>
+		<p>Email</p>
 		<%= f.text_field :email%>
 	</div>
 	<div class="field">
-		<p>password</p>
+		<p>Password</p>
 		<%= f.text_field :password%>
+	</div>
+		<div class="field">
+		<p>Tour</p>
+		<%= f.collection_select :tour_id, Tour.all, :id, :time%>
 	</div>
 	<div class="actions">
 		<%= f.submit%>

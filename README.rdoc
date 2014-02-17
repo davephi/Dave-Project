@@ -5,6 +5,19 @@ http://serene-dawn-6766.herokuapp.com/
 
 Created app that writes to database and reads from it
 
+SCHEMA:
+
+Users:
+	Name (string)
+	Email (string)
+	Password (string)
+
+Tours
+	Time (string)
+	Apartment Size (string)
+	Tourguide (string)
+	User (user_id)
+
 == 1/15/2014
 
 1. Setup Ruby, Rails, Git and Heroku

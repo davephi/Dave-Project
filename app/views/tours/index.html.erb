@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<td>Tour Time</td>
+		<td>Apartment Size</td>
+		<td>Tourguide</td>
+	</tr>
+	<% @tours.each do |tour| %>
+	<tr>
+		<td><%= tour.time %></td>
+		<td><%= tour.size %></td>
+		<td><%= tour.guide %></td>
+	</tr>
+	<%end%>
+</table>
