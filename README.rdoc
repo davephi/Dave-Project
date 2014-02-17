@@ -27,7 +27,7 @@ Tours
 rails generate controller home index
 </tt>
 
-and updating the config/routes.rb to include
+and updating the config/routes.rb to include xxx
 
 <tt>
 root 'home#index' 
